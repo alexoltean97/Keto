@@ -8,4 +8,9 @@ $(document).ready(function () {
         $(".navigate").slideToggle();
     });
 
+    $(window).on('resize' , function () {
+       if(!$(".menu-container").is(":visible") && !$(".navigate").is(':visible')){
+           $(".navigate").show();
+       }
+    });
 });
