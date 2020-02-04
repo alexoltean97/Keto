@@ -258,6 +258,16 @@ li{
     color: #f05555;
 }
 
+.info-section .info-content-section ul li pre{
+    display: inline;
+    font-size: 10px;
+    position: relative;
+    bottom: 8px;
+    left: 5px;
+    color: #f05555;
+}
+
+
 .info-section .info-content-section p{
     padding: 20px 0;
     font-weight: 700;
@@ -505,7 +515,148 @@ li{
     color: #f05555;
 }
 
-/*** End main-footer ***/
+
+/*** MODULES ****/
+
+.modules-odd{
+    padding: 40px 0 40px 0;
+}
+
+.modules-odd h2{
+    padding-bottom: 20px;
+    color: #f05555;
+    font-weight: 600;
+}
+
+.modules-odd h2 a{
+    color:#f05555;
+}
+
+.modules-odd h2 a:hover{
+    color: #f05555;
+}
+
+.modules-odd h3{
+    padding-bottom: 30px;
+}
+
+.modules-odd .module-tittle{
+    font-weight: 700;
+}
+
+.modules-odd h2,
+.modules-odd h3{
+    text-align: center;
+}
+.modules-odd .module-content .module-pic img{
+    padding-top: 50px;
+    max-width: 550px;
+}
+
+@media screen and (max-width: 767px) {
+    .modules-odd .module-content .module-pic img{
+        max-width: 420px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.modules-odd .module-content .module-text{
+    padding-top: 50px;
+}
+
+.modules-odd .module-content .module-text h5{
+    font-weight: 600;
+    line-height: 1.5;
+}
+.modules-odd .module-content .module-text ul{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.modules-odd .module-content .module-text ul li{
+    font-weight: 500;
+}
+
+.modules-odd .module-content .module-text p{
+    padding: 30px 0;
+    font-size: 15.5px;
+    font-weight: 600;
+}
+
+.modules-odd .module-content .module-text .change-list{
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+
+.modules-even{
+    padding: 40px 0 40px 0;
+    background-color: #f7f8fa;
+}
+
+.modules-even .module-content h2{
+    padding-bottom: 30px;
+    color:#f05555;
+    font-weight: 600;
+    text-align: center;
+}
+
+.modules-even .module-content h3{
+    text-align: center;
+}
+.modules-even .module-content h3 span{
+    text-decoration: underline;
+}
+
+.modules-even .separator{
+    padding-top:50px;
+}
+
+.modules-even  .module-text h5{
+    padding-bottom: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+    color:#f05555;
+}
+
+.modules-even .module-text p{
+    padding: 20px 0;
+    font-weight: 600;
+    color: #f05555;
+}
+
+.modules-even .module-text ul{
+    padding-left: 20px;
+}
+
+.modules-even .module-text ul li{
+    font-weight: 600;
+    color: #f05555;
+}
+
+.modules-even .module-pic img{
+    max-width: 450px;
+}
+
+.modules-even .module-text p span{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.modules-even .module-content h5{
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .modules-even .module-pic img{
+        max-width: 420px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+    /*** End main-footer ***/
 
 .main-footer{
     background: #42515e;
