@@ -112,17 +112,7 @@ li{
 }
 
 
-@media screen and (max-width: 1200px){
-    .main-header .logo img{
-        width: 300px;
-    }
-}
-
 @media screen and (max-width: 991px){
-    .main-header .logo img{
-        /*display: block;*/
-        /*margin: 0 auto;*/
-    }
 
     .menu-container{
         display: block;
@@ -554,6 +544,17 @@ li{
     max-width: 550px;
 }
 
+@media screen and (max-width: 991px){
+    .modules-odd .module-content .module-pic img{
+        display: block;
+        margin: 0 auto;
+    }
+    .modules-even .module-pic img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .modules-odd .module-content .module-pic img{
         max-width: 420px;
@@ -655,18 +656,6 @@ li{
         display: block;
         margin: 0 auto;
     }
-}
-
-    /*** End main-footer ***/
-
-.main-footer{
-    background: #42515e;
-    padding: 30px 0;
-    color: #bac0d1;
-}
-
-.main-footer .logo-text{
-    font-size: 12px;
 }
 
 .last-module{
@@ -798,3 +787,66 @@ li{
     text-decoration: underline;
 }
 
+
+/**** End Classes-section ****/
+
+.classes-section{
+    padding: 200px 0 50px 0;
+}
+
+.classes-section .class-text-odd,
+.classes-section .class-text-even
+{
+    padding: 20px;
+}
+
+.classes-section .class-text-even{
+    background-color: #f7f8fa;
+}
+
+.classes-section h2{
+    padding-bottom: 40px;
+    text-align: center;
+    color: #f05555;
+}
+
+.classes-section h3{
+    padding-bottom: 20px
+}
+
+.classes-section h4{
+    padding-bottom: 20px;
+    color: #f05555;
+}
+
+/*** End main-footer ***/
+
+.main-footer{
+    background: #f8f4f6;
+    padding: 30px 0;
+    color: #333;
+}
+
+.main-footer .logo-text{
+    font-size: 12px;
+}
+
+.main-footer .logo-place img{
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 991px){
+    .main-footer .logo-text{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .main-footer .logo-place img{
+        padding-bottom: 20px;
+    }
+
+    .main-footer .last-text{
+        text-align: center;
+    }
+}
