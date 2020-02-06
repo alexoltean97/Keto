@@ -54,6 +54,7 @@ li{
 
 .main-header .main-navigation ul li {
     padding: 0 10px;
+    font-size: 18px;
     display: inline-block;
     list-style-type: none;
 }
@@ -154,6 +155,7 @@ li{
 
 .intro-section h3 span{
     color:#f05555;
+    font-weight: bold;
 }
 
 .intro-section .intro-content ul{
@@ -162,8 +164,12 @@ li{
 
 .intro-section .intro-content ul li{
     padding: 5px 0;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.intro-section .intro-content ul li span{
+    font-weight: bold;
 }
 
 .intro-section .intro-content .buy-holder{
@@ -246,23 +252,20 @@ li{
 .info-section .info-content-section ul li{
     padding: 5px 0;
     font-weight: 700;
-    color: #f05555;
 }
 
 .info-section .info-content-section ul li pre{
     display: inline;
-    font-size: 10px;
+    font-size: 12px;
     position: relative;
     bottom: 8px;
     left: 5px;
-    color: #f05555;
 }
 
 
 .info-section .info-content-section p{
     padding: 20px 0;
     font-weight: 700;
-    color: #f05555;
 }
 
 .info-section .info-content-section .product-pic img{
@@ -354,7 +357,7 @@ li{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.8);
     z-index: 2;
 }
 
@@ -473,8 +476,6 @@ li{
 
 .keto-masterclass{
     background-image: url("images/bg-4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     z-index: 1;
 }
@@ -484,6 +485,11 @@ li{
     margin-bottom: 50px;
     padding: 20px 40px;
     background-color: #fff;
+}
+
+.keto-masterclass .img-gallery img{
+    margin: 10px 5px;
+    width: 150px;
 }
 
 .keto-masterclass .white-box h2{
@@ -504,6 +510,20 @@ li{
     padding: 10px 0 10px 0;
     font-weight: 500;
     color: #f05555;
+}
+
+@media screen and (max-width: 991px){
+
+    .keto-masterclass .white-box ul {
+        list-style-type: none;
+        text-align: center;
+    }
+    .keto-masterclass .img-gallery img{
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+        width: 350px;
+    }
 }
 
 
@@ -732,25 +752,30 @@ li{
 .testimonials .testimonial-box .testimonial-content{
     padding:30px 30px;
     background-color: #f7f8fa;
-    text-align: center;
+    text-align: justify;
     -webkit-box-shadow: 1px 8px 5px 5px rgba(0,0,0,0.15);
     -moz-box-shadow: 1px 8px 5px 5px rgba(0,0,0,0.15);
     -o-box-shadow: 1px 8px 5px 5px rgba(0,0,0,0.15);
     box-shadow: 1px 8px 5px 5px rgba(0,0,0,0.15);
+    height: 479px;
 }
 
 .testimonials .testimonial-box .testimonial-content p{
     padding-bottom: 10px;
-    color: #f05555;
+    color: #333;
     font-size: 14px;
     font-weight: 500;
 }
 
 .testimonials .testimonial-box .testimonial-content span{
-    color: #f05555;
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 1199px){
+    .testimonials .testimonial-box .testimonial-content{
+        height: inherit;
+    }
+}
 
 /*** FAQ SECTION ***/
 
@@ -769,6 +794,16 @@ li{
     padding: 20px;
     text-align: left;
     color:#fff;
+}
+
+.faq-buy{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.faq-buy a:hover{
+    color:#fff;
+    text-decoration: none;
 }
 
 .faq-text h3{
