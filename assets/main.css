@@ -894,6 +894,10 @@ li{
     color: #f05555;
 }
 
+.classes-section img{
+    width: 350px;
+}
+
 /*** End main-footer ***/
 
 .main-footer{
