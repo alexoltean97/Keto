@@ -487,6 +487,46 @@ li{
     background-color: #fff;
 }
 
+.keto-masterclass .bundle-pic{
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+}
+
+@media screen and (max-width: 1199px) {
+    .keto-masterclass .bundle-pic{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .keto-masterclass .bundle-pic{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .keto-masterclass .bundle-pic{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .keto-masterclass .bundle-pic{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .keto-masterclass .bundle-pic{
+        width: 250px;
+    }
+
+    .keto-masterclass .img-gallery img{
+        width: 250px!important;
+    }
+}
+
 .keto-masterclass .img-gallery img{
     margin: 10px 5px;
     width: 150px;
