@@ -454,7 +454,6 @@ li{
 
 .facts-4 .text p{
     padding-bottom: 25px;
-    color: #f05555;
     font-weight: 500;
 }
 
@@ -549,7 +548,6 @@ li{
 .keto-masterclass .white-box ul li{
     padding: 10px 0 10px 0;
     font-weight: 500;
-    color: #f05555;
 }
 
 @media screen and (max-width: 991px){
@@ -637,7 +635,7 @@ li{
 }
 
 .modules-odd .module-content .module-text ul li{
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .modules-odd .module-content .module-text p{
@@ -678,13 +676,11 @@ li{
     padding-bottom: 30px;
     font-weight: 600;
     line-height: 1.5;
-    color:#f05555;
 }
 
 .modules-even .module-text p{
     padding: 20px 0;
     font-weight: 600;
-    color: #f05555;
 }
 
 .modules-even .module-text ul{
@@ -693,7 +689,6 @@ li{
 
 .modules-even .module-text ul li{
     font-weight: 600;
-    color: #f05555;
 }
 
 .modules-even .module-pic img{
